@@ -1,3 +1,7 @@
 .item--complete .item__text {
     text-decoration: line-through;
 }
+
+button {
+    cursor: pointer;
+}

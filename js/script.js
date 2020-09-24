@@ -90,7 +90,7 @@ function handleAddItem(event) {
     console.log("Form submitted");
 
     // get text from form
-    const itemText = event.currentTarget.itemtext.value;
+    const itemText = event.currentTarget.itemtext.value.trim();
 
     event.currentTarget.itemtext.value = "";
 
